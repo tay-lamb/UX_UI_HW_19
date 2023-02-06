@@ -1,0 +1,133 @@
+header {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.headerNav li {
+    padding: 10px;
+    list-style-type: none;
+}
+.logo {
+    height: 100px;
+    width: 130px;
+    cursor: pointer;
+    margin-right: auto;
+}
+ul {
+    font-family:'Prosto One';
+}
+
+.heroImg {
+    flex:1;
+    float: right;
+    height: 690px;
+    padding: 10px;
+    /*!display: auto;*/
+}
+.heroSection h1 {
+    font-size: 70px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.heroSection {
+    background-image: url(/images/Frame\ 1.png);
+}
+.heroSection p {
+    font-size: 30px;
+    justify-content:flex-end;
+}
+.content {
+    flex: 1;
+    height: 700px;
+    margin: 0;
+}
+footer {
+    background-color: #A05E2C;
+    padding: 50;
+}
+li {
+    display: inline;
+}
+
+.skills {
+    display: flex;
+    align-content:center;
+    flex-direction: row;
+    margin:10px;
+}
+.skill-1 {
+    flex:1;
+}
+.skill-2 {
+    flex:1;
+}
+.skill-3{
+    flex:1;
+}
+.mySkills img {
+    display:block;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;;
+    margin-left:auto;
+    margin-right: auto;
+}
+.myWork {
+    display:flex;
+    flex-direction: column;
+}
+.myWork div {
+    display:block;
+    border: 1px solid #8EA27C;
+    border-radius: 10px;
+    padding:30px;
+}
+.myWork img {
+    display:block;
+    margin-left: auto;
+    height: 275px;
+    width:500px;
+   
+}
+.case-study1 {
+    flex:1;
+    background-color: #8EA27C;
+}
+.case-study1 p {
+    margin-right: auto;
+}
+.case-study2{
+    flex: 1;
+    background-color: #CFF3CE;
+}
+.case-study3 {
+    flex: 1;
+    background-color: #8EA27C;
+}
+h1 {
+    font-family: 'Prosto One', serif;
+}
+h2 {
+    font-family:'Prosto One', serif;
+    font-size: 40px;
+}
+h3 {
+    font-family:'Prosto One', serif;
+    font-size: 27px;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+button {
+    font-family:'Prosto One', sans-serif;
+    font-size: 1rem;
+    background-color: rgba(160,94,44,1);
+    padding: 9px 25px;
+    border:none;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(160,94,44,0.8);
+    border:3px rgba(96,54,23,1);
+}
