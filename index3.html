@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
         <title>Taylor Lamb's Portfolio</title>
         <link rel="stylesheet" href="css/style3.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,92 +12,50 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        
-
-        <header class="Navigation">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <img class="navbar-brand" src="images/logo2.png"></img>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Resume</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        My Projects
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">NSA Redesign Case Study</a>
-                        <a class="dropdown-item" href="#">CHASER Case Study</a>
-                        <a class="dropdown-item" href="#">TGTR Case Study</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Art/Design Projects</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link contact" href="#">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-        </header>
-        <section class="heroSection">
-             <div>
-                    <img class="heroImg" src="images/headshot.jpg" alt="Taylor Lamb headshot">   
-                </div>
-                <div class="content">
-                    <h1>glad you could make it!</h1>
-                    <p>My name is Taylor Lamb. I am a bubbly creative with a passion for design, art, and human connection. My hybrid background in e-commerce, merchandising, product design, and visual art has given me a unique perspective on UX/UI. I believe great design begins with an open mind and a great team. I am excited, teachable, and ready to hop in!</p>
-                    <button>Download Resume</button>
-                </div>
-        </section>
-        
-            <section class="mySkills">
-                <h2>My Skills:</h2>
-                <div class="skills">
-                    <div class="skill-1">
-                    <h3>User Research</h3>
-                    <p>Using interactive interviews, surveys, and user personas to concentrate on potential user goals, pain points, and thoughts.</p>
-                    </div>
-                <div class="skill-2">
-                    <h3>Wireframing & Prototyping</h3>
-                    <p>Creates intuitive wireframes and prototypes using Figma and InVision.</p>
-                    </div>
-                <div class="skill-3">
-                    <h3>User Interface Design</h3>
-                    <p>Using Figma, HTML, CSS, and JavaScript to create interface designs that captivate and inspire.</p>
-                    </div>
-                </div>
-            </section>
-        <section class="myWork">
-            <h2>My Work</h1>
-            <div class="case-study1">
-                <img src="images/Device Mashups (1).png">
-                <h3>NSA Redesign Case Study</h3>
-                <p>Rethinking the National Secuity Agency's website in a more approachable and delightful way.</p>
-                <button>View Project</button>
+      <header class="Navigation">
+        <img class="logo" src="images/logo2.png" alt="Taylor Lamb logo">
+        <nav class="headerNav">
+            <ul>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Resume</li>
+                <li>Other Projects</li>
+            </ul>
+        </nav>
+      </header>
+      <div class="jumbotron caseHeader">
+        <img src="images/Device Mashups (1).png">
+        <h1 class="display-4">NSA UI Redesign Case Study</h1>
+        <p class="lead">Rethinking the National Security Agency's website in a more approachable and delightful way.</p>
+      </div>
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="cardContainer col-lg-6 col-md-6 col-sm-12"><div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Background:</h5>
+                <p class="card-text"> As a governmental agency, the website should serve as a resource for citizens/users. Our goal was to make the website feel visually welcoming while also maintaining the NSA's professional and informative core values.</p>
+              </div>
             </div>
-            <div class="case-study2">
-                <img>
-                <h3>CHASER App Case Study</h3>
-                <p>An app concept to make cocktail culture more accessible and tailored to users everywhere.</p>
-                <button>View Project</button>
+          </div>
+            <div class="cardContainer col-lg-6 col-md-6 col-sm-12"><div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">My Role</h5>
+                <ul class="card-text">
+                  <li>UX Research</li>
+                  <li>Heuristic Evaluation</li>
+                  <li>Card-sorting/Site Map</li>
+                  <li>Wireframing</li>
+                  <li>A/B Testing</li>
+                  <li>Usability Testing</li>
+                  <li>UI Desing</li>
+                </ul>
+              </div>
             </div>
-            <div class="case-study3">
-                <img>
-                <h3>TGTR App Case Study</h3>
-                <p>An app concept to make group travel planning better, together.</p>
-                <button>View Project</button>
-            </div>
-        </section>
-                <footer>
+          </div>     
+        </div>
+      </section>
+      <footer>
                     <ul>
                         <li>About</li>
                         <li>Contact</li>

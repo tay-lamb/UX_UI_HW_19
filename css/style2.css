@@ -1,19 +1,18 @@
-.headerNav {
-    display: flex;
-    flex-direction: row;
-    -ms-flex-align: top;
-    list-style-type: none;
+header {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
 }
 .headerNav li {
-    padding: 10px;
-    background-color: #405E2C;
+  padding: 10px;
+  list-style-type: none;
+  font-family: 'Prosto One', sans-serif;
 }
 .logo {
-    width: 3%;
-    padding: 1%;
-    text-align: center;
     height: 100px;
-    width: 300px;
+    width: 130px;
+    cursor: pointer;
+    margin-right: auto;
 }
 Navigation {
     width:73%;

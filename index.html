@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
         <title>Taylor Lamb's Portfolio</title>
-        <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Quicksand&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     </head>
     <body>
-        
-
         <header class="Navigation">
             <img class="logo" src="images/logo2.png" alt="Taylor Lamb logo">
             <nav class="headerNav">
@@ -37,21 +39,19 @@
                 <h2>My Skills:</h2>
                 <div class="skills">
                     <div class="skill-1">
-                    <img src="images/userresearch.jpg">
-                    <h3>User Research</h3>
-                    <p>Using interactive interviews, surveys, and user personas to concentrate on potential user goals, pain points, and thoughts.</p>
+                        <div id="flip">User Research</div>
+                        <div id="panel">Using interactive interviews, surveys, and user personas to concentrate on potential user goals, pain points, and thoughts.</div>
                     </div>
-                <div class="skill-2">
-                    <img src="images/wireframing2.jpg">
-                    <h3>Wireframing & Prototyping</h3>
-                    <p>Creates intuitive wireframes and prototypes using Figma and InVision.</p>
+                    <div class="skill-2">
+                        <div id="flip2">Wireframing & Prototyping</div>
+                        <div id="panel2">Creates intuitive wireframes and prototypes using Figma and InVision.</div>
                     </div>
-                <div class="skill-3">
-                    <img src="images/interface design.jpg">
-                    <h3>User Interface Design</h3>
-                    <p>Using Figma, HTML, CSS, and JavaScript to create interface designs that captivate and inspire.</p>
+                    <div class="skill-3">
+                        <div id="flip3">User Interface Design</div>
+                        <div id="panel3">Using Figma, HTML, CSS, and JavaScript to create interface designs that captivate and inspire.</div>
                     </div>
                 </div>
+              
             </section>
         <section class="myWork">
             <h2>My Work</h1>
@@ -62,7 +62,7 @@
                 <button>View Project</button>
             </div>
             <div class="case-study2">
-                <img>
+                <img src="images/iPhone 13 Pro Max - 5.png">
                 <h3>CHASER App Case Study</h3>
                 <p>An app concept to make cocktail culture more accessible and tailored to users everywhere.</p>
                 <button>View Project</button>
@@ -86,5 +86,7 @@
                     <p>linkedin: linkedin.com/in/taylor-lamb125</p>
                     <p>Copyright 2023</p>
                 </footer>
+    
+         <script src="js/index.js"></script>
     </body>
 </html>
